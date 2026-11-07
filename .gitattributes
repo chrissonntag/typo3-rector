@@ -26,3 +26,4 @@ structarmed.php export-ignore
 tests export-ignore
 utils/generator export-ignore
 utils/phpstan/tests export-ignore
+utils/rule-doc-generator export-ignore

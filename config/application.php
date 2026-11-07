@@ -9,6 +9,7 @@ use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigura
 
 return static function (ContainerConfigurator $containerConfigurator): void {
     $containerConfigurator->import(__DIR__ . '/../utils/generator/config/config.php', null, true);
+    $containerConfigurator->import(__DIR__ . '/../utils/rule-doc-generator/config/config.php', null, true);
 
     $services = $containerConfigurator->services();
     $services->defaults()

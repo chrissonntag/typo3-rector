@@ -16,6 +16,7 @@
         <testsuite name="small">
             <directory>tests</directory>
             <directory>utils/phpstan/tests</directory>
+            <directory>utils/rule-doc-generator/tests</directory>
         </testsuite>
     </testsuites>
 </phpunit>
